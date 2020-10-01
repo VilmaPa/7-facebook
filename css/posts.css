@@ -5,9 +5,23 @@
     margin-bottom: 40px;
     border: 1px solid #ccc;
 }
-    .post > header {
-        
+    .post > .post-header {
+        display: grid;
     }
+        .post > .post-header > .avatar{
+
+        }
+        .post > .post-header > .post-user{
+.
+        }
+            .post > .post-header > .post-user > user{
+
+            }
+            .post > .post-header > .post-user > .time{
+
+            }
+
+
     .post > div {
 
     }

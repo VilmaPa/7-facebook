@@ -4,4 +4,13 @@ import renderPosts from './renderPosts.js';
 
 renderPosts(posts);
 
+/* renderPost
+    for -> renderSinglePost
+        renderHeader
+        renderContent
+            renderContentText
+            rendewrContentGallery
+        renderFooter
+
+*/
 

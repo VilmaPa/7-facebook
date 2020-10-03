@@ -1,34 +1,19 @@
-import renderHeader from './render.Header.js'
-import renderContent from './render.Header.js'
+import renderHeader from './renderHeader.js';
+import renderContent from './renderContent.js';
+import renderFooter from './renderFooter.js';
 
 function renderSinglePost(data) {
-    //validacija
+    // validacija
 
-    //logika
-    console.log('Generuoju viena posta');
-    console.log(data);
+
+    // logika
+    // console.log(data);
 
     return `<div class="post">
-                ${renderHeader(data.author)}
+                ${renderHeader(data.author, data.postTimestamp)}
                 ${renderContent(data.content)}
                 ${renderFooter()}
-
-
-
-               
-            </div>`; 
+            </div>`;
 }
 
 export default renderSinglePost;
-
-
-
- // <header>
-                //     Avataras + ${data.author.name} ${data.author.lastname}
-                // </header>  
-                // <div>
-                //         text + name
-                // </div>
-                // <footer> 
-                //     like + coment
-                // </footer>

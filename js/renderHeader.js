@@ -1,11 +1,14 @@
 function renderHeader(data, time){
-    console.log(data);
-    return `<header class="podt-header">
-                <a class="avatar-link" href=#></a>
-                <img class="avatar" scr="./img/users/homer-simpson.jpg" alt="User profile pictures" + ${data.name} ${data.lastname}
-                <div class="post-user">
-                    <a href=#>${data.name} ${data.lastname}
-                </div>
-         </header>`
+    return `eader class="post-header">
+    <a class="avatar-link" href="#user/${data.link}">
+        <img class="avatar" src="./img/users/${data.photo}" alt="User profile picture">
+    </a>
+    <div class="post-user">
+        <a class="user" href="#user/${data.link}">${data.name} ${data.lastname}</a>
+        <div class="timestamp">6h ago (${time})</div>
+    </div>
+    <i class="fa fa-ellipsis-h"></i>
+</header>`;
 }
+
 export default renderHeader;

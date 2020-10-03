@@ -1,10 +1,11 @@
-import renderContentText from `./renderContentText.js`;
-import renderContentGallery from `./renderContentGallery.js`;
+import renderContentText from './renderContentText.js';
+import renderContentGallery from './renderContentGallery.js';
 
 function renderContent(data) {
     return `<div>
                 ${renderContentText(data.text)}
-            </div>`
+                ${renderContentGallery()}
+            </div>`;
 }
 
 export default renderContent;

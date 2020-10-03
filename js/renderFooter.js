@@ -1,6 +1,8 @@
 
 function renderFooter() {
-    return;
+    return `<footer>
+                LIKE + COMMENT
+            </footer>`;
 }
 
 export default renderFooter;

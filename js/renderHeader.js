@@ -1,5 +1,5 @@
 function renderHeader(data, time){
-    return `eader class="post-header">
+    return `<header class="post-header">
     <a class="avatar-link" href="#user/${data.link}">
         <img class="avatar" src="./img/users/${data.photo}" alt="User profile picture">
     </a>

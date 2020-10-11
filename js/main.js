@@ -1,16 +1,16 @@
-// is kur gauti duomenis, importuoti, paleisti
-import posts from './data.js';
+import ajax from './ajax.js';
 import renderPosts from './renderPosts.js';
 
-renderPosts(posts);
+ajax(renderPosts, '/js/data.json');
 
-/* renderPost
+
+/*
+renderPosts
     for -> renderSinglePost
         renderHeader
         renderContent
             renderContentText
-            rendewrContentGallery
+            renderContentGallery
         renderFooter
-
 */
 
